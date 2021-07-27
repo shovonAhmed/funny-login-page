@@ -84,15 +84,15 @@ input[type="password"] {
   padding: 10px 10px;
 }
 .tooltip input[type="button"] {
-  padding: 8px 13px;
-  background: #24D58F;
-  font-size: 13px;
-  font-weight: bold;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  float: right;
-  /* margin-right: 0px; */
-  margin-top: 5px;
-  border-radius: 5px;
+    padding: 8px 13px;
+    background: #24D58F;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
