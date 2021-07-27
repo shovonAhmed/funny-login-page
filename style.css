@@ -1,0 +1,96 @@
+*{margin: 0; padding: 0; outline: 0;}
+.container {
+  margin: 70px auto;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+}
+.header{}
+.header h2 {
+  font-size: 35px;
+  padding-bottom: 2px;
+}
+.header p{
+  font-size: 18px;
+}
+.account {
+    color: #1AD58A;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+.login {
+  padding-top: 20px;
+  font-size: 18px;
+}
+input[type="text"]{
+  margin-top: 5px;
+  margin-bottom: 25px;
+  width: 350px;
+  height: 35px;
+  padding-left: 5px;
+}
+input[type="password"] {
+  margin-top: 5px;
+  margin-bottom: 13px;
+  width: 350px;
+  height: 35px;
+  padding-left: 5px;
+}
+.signin{}
+.button{}
+.button input[type="button"] {
+  padding: 8px 13px;
+  background: #24D58F;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  float: left;
+}
+.right {
+  padding-left: 237px;
+  font-weight: bold;
+  position: relative;
+  
+}
+.right a {
+  color: #1AD58A;
+  text-decoration: none;
+}
+.right:hover .tooltip{visibility: visible;}
+.tooltip {
+  position: absolute;
+  background: #4B4A4A;
+  color: #fff;
+  width: 350px;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  top: -113px;
+  border-radius: 5px;
+  visibility: hidden;
+  z-index: 1;
+}
+.tooltip h3{}
+.tooltip p {
+  margin: 20px 10px 0px 1px;
+  border: 1px solid #fff;
+  padding: 10px 10px;
+}
+.tooltip input[type="button"] {
+  padding: 8px 13px;
+  background: #24D58F;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  float: right;
+  /* margin-right: 0px; */
+  margin-top: 5px;
+  border-radius: 5px;
+}
